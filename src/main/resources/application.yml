@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/MusicPlayer
+    username: postgres
+    password: kirillkirill
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+jwt:
+  secret: 846465464pwwdimapwmnhhalsimsmm143415183545457
+  lifetime: 7200000
